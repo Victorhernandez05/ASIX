@@ -1,0 +1,126 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado principal */
+header {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding: 0px 10px;
+    background-color: green;
+}
+
+/* Navegación del encabezado */
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 300px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 10;
+    padding: 100;
+}
+
+header nav li {
+    display: inline;
+}
+
+/* Título principal */
+h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: normal;
+    margin: 40px 0;
+}
+
+/* Contenedor principal */
+main {
+    font-family: 'Courier New', Courier, monospace, sans-serif; 
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 0px;
+    
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    
+}
+
+th {
+    background-color: #46607c;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    border-radius: 5px;
+}
+
+td {
+    font-size: 16px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Sección de características comunes */
+div p {
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #46607c;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Pie de página */
+footer {
+    background-color: green;
+    color: white;
+    text-align: left;
+    padding: 5px 0;
+    font-size: 14px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+    

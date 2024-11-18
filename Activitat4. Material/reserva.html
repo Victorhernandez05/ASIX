@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulari de reserva de Rural Rooms">
+    <title>Rural Rooms - Reserva</title>
+    <link rel="stylesheet" href="estilos3.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/RRLogo.jpg" alt="Rural Rooms Logo"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="precios.html">Preus</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+        <h2>Reserva la seva habitació en Rural Rooms</h2>
+
+    <main>
+        <form action="#" method="post" class="reservation-form">
+            <!-- Dades Personals -->
+            <fieldset>
+                <legend>Dades personals</legend>
+                <label for="treatment">Tractament:</label>
+                <select id="treatment" name="treatment" required>
+                    <option value="Sr">Sr</option>
+                    <option value="Sra">Sra</option>
+                    <option value="Srta">Srta</option>
+                </select>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="surname">Cognoms:</label>
+                <input type="text" id="surname" name="surname" required>
+                <label for="phone">Telèfon:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="confirm-email">Confirma el correu electrònic:</label>
+                <input type="email" id="confirm-email" name="confirm-email" required>
+                <label for="password">Contrasenya:</label>
+                <input type="password" id="password" name="password" required>
+            </fieldset>
+
+            <!-- Dades de la Reserva -->
+            <fieldset>
+                <legend>Dades de la reserva</legend>
+                <label for="room-type">Tipus d'habitació:</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="individual">Habitació individual</option>
+                    <option value="doble">Habitació doble</option>
+                    <option value="doble-superior">Habitació doble superior</option>
+                    <option value="triple">Habitació triple</option>
+                </select>
+                <label for="people">Número de persones:</label>
+                <input type="number" id="people" name="people" min="1" required>
+                <label for="checkin">Data d'entrada:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                <label for="checkout">Data de sortida:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                <label for="special-requests">Peticions especials:</label>
+                <textarea id="special-requests" name="special-requests" rows="4" placeholder="No garantim complir-les, però ho intentarem"></textarea>
+            </fieldset>
+
+            <!-- Dades Addicionals -->
+            <fieldset>
+                <legend>Dades addicionals</legend>
+                <label for="parking">
+                    <input type="checkbox" id="parking" name="parking">
+                    Reserva plaça de pàrquing cobert (8€/nit). Hi ha pàrquing exterior gratuït.
+                </label>
+                <label for="arrival-time">Hora prevista d'arribada:</label>
+                <input type="time" id="arrival-time" name="arrival-time">
+                <label for="breakfast">
+                    <input type="checkbox" id="breakfast" name="breakfast">
+                    Afegeix esmorzar (5€/dia)
+                </label>
+            </fieldset>
+
+            <button type="submit">Reserva</button>
+        </form>
+    </main>
+    <!-- Peu de pàgina -->
+    <footer>
+        <p>Activitat realitzada per Víctor Hernández Elías</p>
+        <p>
+            Fotografia de la portada 
+                <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+            </p>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+                <img src="img/creative-commons.png" alt="Creative Commons License">
+            </a>
+            
+        </a>
+    </footer>
+</body>
+</html>
+
+

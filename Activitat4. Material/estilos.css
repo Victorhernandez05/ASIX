@@ -1,0 +1,96 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: green;
+}
+
+/* Encapçalament */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;;
+    background-color: green;
+    
+}
+
+header #logo {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 100px;
+    padding: 20px 100px;
+    font-size: 1.5rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover, nav ul li a.active {
+    background-color: green;
+}
+
+/* Zona de continguts */
+#portada {
+    background: url('img/fondoindex.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: green;
+    text-align: left;
+}
+
+#portada h1 {
+    font-size: 5rem;
+    font-weight: normal;
+    margin: 4;
+    padding: 0px 100px;
+}
+
+#portada p {
+    font-size: 2rem;
+    margin-top: 5px;
+    padding: 0px 100px;
+
+}
+
+/* Peu de pàgina */
+footer {
+    text-align: left;
+    background-color: green;
+    color: white;
+    padding: 20px 10px;
+    font-size: 1.0rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer img {
+    margin-top: 10px;
+    width: 100px;
+    height: auto;
+}
