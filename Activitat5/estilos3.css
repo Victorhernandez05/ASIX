@@ -1,0 +1,91 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #74e7d4;
+    font-size: 18px;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la página de galería */
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #004b87;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 400px;
+    height: 350px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+#imatge-gran img {
+    display: block;
+    max-width: 200%;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+#rellotge {
+    text-align: center;
+    font-size: 18px;
+    color: #0a0c75;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

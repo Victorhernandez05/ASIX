@@ -1,0 +1,73 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #74e7d4;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la página de historia */
+main {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 100px;
+    background: rgb(196, 241, 176);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #004b87;
+    text-align: center;
+}
+
+section {
+    margin-top: 20px;
+    padding: 100px;
+    border: 3px solid #4934a3;
+    border-radius: 5px;
+}
+
+section:hover {
+    background-color: #f4f4f4;
+    color: #004b87;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 252, 252);
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+    

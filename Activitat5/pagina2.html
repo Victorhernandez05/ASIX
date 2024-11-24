@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nom de l'autor">
+    <meta name="keywords" content="BMW, M3, història, esportius">
+    <meta name="description" content="Història del BMW M3">
+    <title>BMW M3 - Història</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <script src="components/script2.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BMW M3</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="pagina2.html">Història</a></li>
+                <li><a href="pagina3.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>La Història del BMW M3</h2>
+        <section onmouseover="mostrarParagraf(this)" onmouseout="ocultarParagraf(this)">
+            <h3>L’origen del M3</h3>
+            <p style="display: none;">El BMW M3 va ser llançat per primera vegada el 1986 com a variant esportiva del BMW Sèrie 3.</p>
+        </section>
+        <form id="formulariContrasenya" onsubmit="validarContrasenya(event)">
+            <label for="password1">Introdueix la contrasenya:</label><br>
+            <input type="password" id="password1" required><br><br>
+            <label for="password2">Repeteix la contrasenya:</label><br>
+            <input type="password" id="password2" required><br><br>
+            <button type="submit">Canviar Contrasenya</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024. Creat per Víctor Hernández Elías.</p>
+    </footer>
+    <script>
+        function mostrarParagraf(element) {
+            element.style.backgroundColor = '#ddd';
+            element.style.color = '#000';
+            element.querySelector('p').style.display = 'block';
+        }
+
+        function ocultarParagraf(element) {
+            element.style.backgroundColor = 'transparent';
+            element.style.color = 'inherit';
+            element.querySelector('p').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

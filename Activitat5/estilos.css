@@ -1,0 +1,62 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #74e7d4;
+    font-size: 18px;
+    
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de la página principal */
+main {
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2 {
+    color: #004b87;
+}
+
+p {
+    font-size: 18px;
+    color: #3e3f44;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
