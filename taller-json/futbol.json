@@ -1,0 +1,43 @@
+{
+    "jornadas": [
+      {
+        "jornada": 1,
+        "partidos": [
+          {
+            "equipo_local": "Aston Villa",
+            "equipo_visitante": "Leicester City",
+            "goles_local": 2,
+            "goles_visitante": 1,
+            "fecha": "4/1"
+          },
+          {
+            "equipo_local": "Crystal Palace",
+            "equipo_visitante": "Chelsea",
+            "goles_local": 1,
+            "goles_visitante": 1,
+            "fecha": "4/1"
+          }
+        ]
+      },
+      {
+        "jornada": 2,
+        "partidos": [
+          {
+            "equipo_local": "Southampton",
+            "equipo_visitante": "Brentford",
+            "goles_local": 0,
+            "goles_visitante": 5,
+            "fecha": "4/1"
+          },
+          {
+            "equipo_local": "Manchester City",
+            "equipo_visitante": "West Ham",
+            "goles_local": 4,
+            "goles_visitante": 1,
+            "fecha": "4/1"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,89 @@
+{
+    "Pressupostos": [
+      {
+        "id": "1",
+        "Components": [
+          {
+            "Nom": "Placa Base",
+            "Marca": "Gigabyte",
+            "Model": "Aorus B550 Elite",
+            "Preu": "160€"
+          },
+          {
+            "Nom": "Processador",
+            "Marca": "Intel",
+            "Model": "Core i7-13700F",
+            "Preu": "370€"
+          },
+          {
+            "Nom": "Memòria RAM",
+            "Marca": "HyperX",
+            "Model": "Predator DDR4 16GB (2 x 8GB)",
+            "Preu": "95€",
+            "Quantitat": 2
+          },
+          {
+            "Nom": "Disc Dur",
+            "Marca": "Samsung",
+            "Model": "870 EVO 1TB SSD",
+            "Preu": "120€"
+          },
+          {
+            "Nom": "Targeta Gràfica",
+            "Marca": "AMD",
+            "Model": "Radeon RX 6800",
+            "Preu": "550€"
+          },
+          {
+            "Nom": "Targeta de So",
+            "Marca": "ASUS",
+            "Model": "Essence STX II",
+            "Preu": "190€"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "Components": [
+          {
+            "Nom": "Placa Base",
+            "Marca": "ASRock",
+            "Model": "B660M Pro RS",
+            "Preu": "140€"
+          },
+          {
+            "Nom": "Processador",
+            "Marca": "AMD",
+            "Model": "Ryzen 7 5800X",
+            "Preu": "300€"
+          },
+          {
+            "Nom": "Memòria RAM",
+            "Marca": "G.Skill",
+            "Model": "Trident Z RGB DDR4 32GB (2 x 16GB)",
+            "Preu": "180€",
+            "Quantitat": 2
+          },
+          {
+            "Nom": "Disc Dur",
+            "Marca": "Kingston",
+            "Model": "NV1 1TB SSD",
+            "Preu": "90€"
+          },
+          {
+            "Nom": "Targeta Gràfica",
+            "Marca": "NVIDIA",
+            "Model": "GeForce RTX 4070",
+            "Preu": "750€"
+          },
+          {
+            "Nom": "Targeta de So",
+            "Marca": "Creative",
+            "Model": "Sound Blaster X AE-5",
+            "Preu": "150€"
+          }
+        ]
+      }
+    ]
+  }
+  
