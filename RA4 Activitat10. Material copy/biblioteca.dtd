@@ -1,0 +1,9 @@
+<!ELEMENT biblioteca (comanda+)>
+<!ELEMENT comanda (llibre+)>
+<!ATTLIST comanda id ID #REQUIRED>
+<!ELEMENT llibre (titol, autor, editorial, any, quantitat)>
+<!ELEMENT titol (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT any (#PCDATA)>
+<!ELEMENT quantitat (#PCDATA)>

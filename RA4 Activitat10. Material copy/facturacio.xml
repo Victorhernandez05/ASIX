@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturacio xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xsi:noNamespaceSchemaLocation="facturacio.xsd">
+    <empresa>
+        <raosocial tipus="empresa">
+            <nom>Centros Comerciales Carrefour S.A.</nom>
+            <adreca>Avenida de la Transición 36</adreca>
+            <codipostal>17760</codipostal>
+            <poblacio>Alcobendas</poblacio>
+            <CIF>A28425270</CIF>
+        </raosocial>
+    </empresa>
+    
+    <factura numero="12">
+        <client>
+            <raosocial tipus="persona">
+                <nom>Harry</nom>
+                <cognom>Potter</cognom>
+                <cognom>Evans</cognom>
+                <adreca>Privet Drive 4</adreca>
+                <codipostal>17600</codipostal>
+                <poblacio>Londres</poblacio>
+                <DNI>40444444-M</DNI>
+            </raosocial>
+        </client>
+        <linies>
+            <producte codi="11113">
+                <descripcio>Bombons Ferrero Rocher</descripcio>
+                <quantitat>1</quantitat>
+                <preuunitari>5.89</preuunitari>
+            </producte>
+            <producte codi="11112">
+                <descripcio>Aigua Fontvella 6.25L</descripcio>
+                <quantitat>4</quantitat>
+                <preuunitari>2.39</preuunitari>
+            </producte>
+            <producte codi="11111">
+                <descripcio>Huevos frescos Carrefour 24 unidades</descripcio>
+                <quantitat>2</quantitat>
+                <preuunitari>3.89</preuunitari>
+            </producte>
+        </linies>
+        <data>2023-10-15</data>
+        <subtotal>22.05</subtotal>
+        <iva>5</iva>
+        <total>23.23</total>
+    </factura>
+</facturacio>

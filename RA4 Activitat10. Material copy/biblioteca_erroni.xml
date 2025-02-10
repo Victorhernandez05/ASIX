@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca>
+  <comanda id="C001">
+    <llibre>
+      <titol>Harry Potter i la pedra filosofal</titol>
+      <autor>J.K. Rowling</autor>
+      <editorial>Salamandra</editorial>
+      <any>1998</any>
+      <quantitat>3</quantitat>
+    </llibre>
+    <llibre>
+      <titol>El senyor dels anells</titol>
+      <autor>J.R.R. Tolkien</autor>
+      <editorial>Minotauro</editorial>
+      <quantitat>2</quantitat>
+    </llibre>
+  </comanda>
+  <comanda id="C002">
+    <llibre>
+      <titol>El nom del vent</titol>
+      <autor>Patrick Rothfuss</autor>
+      <!-- Error: etiqueta <editor incorrecta -->
+      <editor>Penguin Random House</editor>
+      <any>2007</any>
+      <quantitat>5</quantitat>
+    </llibre>
+  </comanda>
+</biblioteca>
