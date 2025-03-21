@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/css" href="RA5Activitat1.NotesUni.css"?>
+<?xml-stylesheet type="text/xsl" href="RA5Activitat1.NotesUni2.xsl"?>
+<notes>
+    <assignatura>
+        <h1>Programació 1</h1>
+        <ul>
+            <li><span class="nom">Harry Potter</span> <span class="nota">6</span></li>
+            <li><span class="nom">Hermione Granger</span> <span class="nota">10</span></li>
+            <li><span class="nom">Ronald Weasley</span> <span class="nota">2</span></li>
+            <li><span class="nom">Neville Longbottom</span> <span class="nota">4</span></li>
+            <li><span class="nom">Geany Weasley</span> <span class="nota">7</span></li>
+            <li><span class="nom">Oliver Wood</span> <span class="nota">5</span></li>
+            <li><span class="nom">Sirius Black</span> <span class="nota">8</span></li>
+        </ul>
+    </assignatura>
+    <assignatura>
+        <h1>Bases de dades</h1>
+        <ul>
+            <li><span class="nom">Harry Potter</span> <span class="nota">5</span></li>
+            <li><span class="nom">Hermione Granger</span> <span class="nota">9</span></li>
+            <li><span class="nom">Ronald Weasley</span> <span class="nota">4</span></li>
+            <li><span class="nom">Neville Longbottom</span> <span class="nota">1</span></li>
+            <li><span class="nom">Geany Weasley</span> <span class="nota">4</span></li>
+            <li><span class="nom">Oliver Wood</span> <span class="nota">5</span></li>
+            <li><span class="nom">Voldemort</span> <span class="nota">0</span></li>
+        </ul>
+    </assignatura>
+</notes>
