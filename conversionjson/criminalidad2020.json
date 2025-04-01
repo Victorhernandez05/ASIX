@@ -1,0 +1,202 @@
+{
+  "root": {
+      "-type": "array",
+      "item": [
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "1.-Homicidios dolosos y asesinatos consumados"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "0"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "2.-Homicidios dolosos y asesinatos en grado tentativa"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "0"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "3.-Delitos graves y menos graves de lesiones y riña tumultuaria"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "36"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "4.-Secuestro"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "0"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "5.-Delitos contra la libertad e indemnidad sexual"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "14"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "5.1.-Agresión sexual con penetración"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "2"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "5.2.-Resto de delitos contra la libertad e indemnidad sexual"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "12"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "6.-Robos con violencia e intimidación"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "51"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "7.- Robos con fuerza en domicilios, establecimientos y otras instalaciones"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "118"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "7.1.-Robos con fuerza en domicilios"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "48"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "8.-Hurtos"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "364"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "9.-Sustracciones de vehículos"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "22"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "10.-Tráfico de drogas"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "10"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "Resto de infracciones penales"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "1.63"
+              }
+          },
+          {
+              "-type": "object",
+              "a:item": {
+                  "-xmlns:a": "item",
+                  "-item": "Tipología Penal",
+                  "-type": "string",
+                  "#text": "Total infracciones penales"
+              },
+              "Enero-Diciembre": {
+                  "-type": "number",
+                  "#text": "2.245"
+              }
+          }
+      ]
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Previsió Meteorològica</title>
+  <link rel="stylesheet" href="dadesobertes.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Previsió Meteorològica</h1>
+    <div id="output">Carregant...</div>
+  </div>
+
+  <script>
+    fetch("dadesobertes_pg.json")
+      .then(response => response.json())
+      .then(data => {
+        const output = data.map((element, index) => `
+          <div class="dia">
+            <h2>Dia ${index + 1}</h2>
+            <p><strong>Estat del Cel:</strong> ${element.versio.variables.estatDelCel}</p>
+            <p><strong>Precipitacions:</strong> ${element.versio.variables.precipitacions}</p>
+            <p><strong>Temperatures:</strong> ${element.versio.variables.temperatures}</p>
+            <p><strong>Visibilitat:</strong> ${element.versio.variables.visibilitat}</p>
+            <p><strong>Vent:</strong> ${element.versio.variables.vent}</p>
+          </div>
+        `).join("");
+        document.getElementById("output").innerHTML = output;
+      })
+      .catch(error => {
+        document.getElementById("output").innerHTML = "Error al carregar les dades.";
+        console.error("Error carregant JSON:", error);
+      });
+  </script>
+</body>
+</html>

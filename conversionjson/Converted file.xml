@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="array">
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">1.-Homicidios dolosos y asesinatos consumados</a:item>
+    <Enero-Diciembre type="number">0</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">2.-Homicidios dolosos y asesinatos en grado tentativa</a:item>
+    <Enero-Diciembre type="number">0</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">3.-Delitos graves y menos graves de lesiones y riña tumultuaria</a:item>
+    <Enero-Diciembre type="number">36</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">4.-Secuestro</a:item>
+    <Enero-Diciembre type="number">0</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">5.-Delitos contra la libertad e indemnidad sexual</a:item>
+    <Enero-Diciembre type="number">14</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">5.1.-Agresión sexual con penetración</a:item>
+    <Enero-Diciembre type="number">2</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">5.2.-Resto de delitos contra la libertad e indemnidad sexual</a:item>
+    <Enero-Diciembre type="number">12</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">6.-Robos con violencia e intimidación</a:item>
+    <Enero-Diciembre type="number">51</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">7.- Robos con fuerza en domicilios, establecimientos y otras instalaciones</a:item>
+    <Enero-Diciembre type="number">118</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">7.1.-Robos con fuerza en domicilios</a:item>
+    <Enero-Diciembre type="number">48</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">8.-Hurtos</a:item>
+    <Enero-Diciembre type="number">364</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">9.-Sustracciones de vehículos</a:item>
+    <Enero-Diciembre type="number">22</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">10.-Tráfico de drogas</a:item>
+    <Enero-Diciembre type="number">10</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">Resto de infracciones penales</a:item>
+    <Enero-Diciembre type="number">1.63</Enero-Diciembre>
+  </item>
+  <item type="object">
+    <a:item xmlns:a="item" item="Tipología Penal" type="string">Total infracciones penales</a:item>
+    <Enero-Diciembre type="number">2.245</Enero-Diciembre>
+  </item>
+</root>
